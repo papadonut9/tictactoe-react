@@ -49,7 +49,6 @@ const winCombos = [
 // const getWinCombos = generateWinCombos();
 // const winCombos = getWinCombos(3);
 
-
 const itemArray = new Array(9).fill("empty");
 
 const App = () => {

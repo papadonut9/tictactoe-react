@@ -29,8 +29,8 @@ module.exports = {
         "react"
     ],
     "rules": {
-        'react/prop-types': 'off',
-        'react/no-render-return-value': 'off',
-        'react/jsx-key': 'off'
+        // 'react/prop-types': 'off',
+        // 'react/no-render-return-value': 'off',
+        // 'react/jsx-key': 'off'
     }
 }
