@@ -15,18 +15,39 @@ import {
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
-function* generateWinCombos() {
-  yield [0, 1, 2];
-  yield [3, 4, 5];
-  yield [6, 7, 8];
-  yield [0, 3, 6];
-  yield [1, 4, 7];
-  yield [2, 5, 8];
-  yield [0, 4, 8];
-  yield [2, 4, 6];
-}
+const winCombos = [
 
-const winCombos = generateWinCombos();
+  [0, 1, 2],
+  [3, 4, 5],
+  [6, 7, 8],
+  [0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8],
+  [0, 4, 8],
+  [2, 4, 6],
+]
+
+
+// // Implementing memoization
+// function generateWinCombos() {
+//   const cache = new Map();
+
+//   function calculateWinCombos(n) {
+//     if (cache.has(n)) {
+//       return cache.get(n);
+//     }
+
+//     const combos = [];
+//     // generate win combos here
+//     cache.set(n, combos);
+//     return combos;
+//   }
+
+//   return calculateWinCombos;
+// }
+
+// const getWinCombos = generateWinCombos();
+// const winCombos = getWinCombos(3);
 
 
 const itemArray = new Array(9).fill("empty");
