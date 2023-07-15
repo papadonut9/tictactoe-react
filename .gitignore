@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+
+# Logs
+logs
+*.log
+
+# Build files
+build/
+dist/
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+
+# Environment variables
+.env
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.iml
+
+# Mac files
+.DS_Store
+
+# Testing frameworks
+coverage/
+
+# Operating System files
+Thumbs.db
